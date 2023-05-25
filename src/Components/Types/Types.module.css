@@ -1,0 +1,30 @@
+.typesContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.typesLinks {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+
+.li {
+  list-style: none;
+  width: 150px;
+}
+
+.typeLink {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 0px 0px 10px 0px;
+  padding: 20px 30px;
+  background-color: rgb(50, 190, 190);
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+}
